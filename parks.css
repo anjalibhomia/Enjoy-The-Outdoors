@@ -1,0 +1,79 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ecab61;
+}
+
+.topnav a {
+  Float: left;
+  color: #be400a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e2942c;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e2942c;
+  color: #be400a;
+}
+
+.background {
+
+  /* background-image: url(./images/park3.jpeg);  */
+  background-color: antiquewhite;
+min-height: 86vh;
+  /* height: 100%; */
+  
+  /* margin-top: 10px; */
+
+}
+
+.Parks {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#Parks1 {
+  font-size: 38px;
+}
+
+#dd1 {
+  font-size: 38px;
+}
+
+footer {
+  padding: 10px 20px;
+  background: saddlebrown;
+  color: white;
+  font-size: 32;
+}
+label{ 
+  font-size: 36px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  text-decoration: solid ;
+}
+.parkcard{
+  list-style-type: none;
+  text-align: left;
+  padding: 8px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 8px;
+}
+.parkcard li{ 
+ margin-bottom: 8px; 
+}

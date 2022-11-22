@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mountains</title>
+  <link rel="stylesheet" href="./mountains.css">
+
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="./parks.html">National Parks</a>
+    <a class="active" href="/mountains.html">Mountains</a>
+  
+  </div>
+
+  <div class="background">
+    <!-- <img src="images/mts2.jpg" alt="Mountains"> -->
+
+    <div style="padding-left:16px">
+      <!-- <h2><Center>Mountains</Center></h2> -->
+      <h2 style="color:rgb(70, 117, 197);">Mountains</h2>
+    
+      <p>
+        <center>The best view comes after the hardest climb.</center>
+      </p>
+    </div>
+
+    <select id="mountaindd" onchange="handleMountainChange()">
+    </select>
+    <div id="mountainContainer"></div>
+    </div>
+    
+    <footer>
+      <p>
+        <center>BestView © All rights reserved.</center>
+      </p>
+    </footer>
+
+    <script src="./scripts/mountainData.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+
+</html>
